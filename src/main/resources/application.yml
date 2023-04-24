@@ -1,0 +1,16 @@
+server:
+  port: 7001
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://ep-floral-rice-599997.ap-southeast-1.aws.neon.tech/chitty-db?schema=pluto
+    username: kurheprachi84
+    password: rbC32PFoRIzL
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
